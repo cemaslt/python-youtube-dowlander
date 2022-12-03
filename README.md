@@ -12,7 +12,7 @@
 
 ```py
 from pytube import YouTube
-link = imput("Link:   ")
+link = input("Link: ")
 
 yt = YouTube(link)
 ys = yt.streams.get_highest_resolution()
